@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.9">
+  <GVL Name="KinCharacters" Id="{2fadf8b9-c417-4772-b6cb-c727f0b6d440}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	in_bAxes_KinConfigGroup_Execute: BOOL;
+	out_bAxes_KinConfigGroup_Done: BOOL;
+    out_uiAxes_KinConfigGroup_ErrorID: UDINT;
+	
+    in_bAxes_KinResetGroup_Execute: BOOL;
+	out_bAxes_KinResetGroup_Done: BOOL;
+	out_uiAxes_KinResetGroup_ErrorID: UDINT;
+	
+	st_Axes_Kin: ST_KinAxes;
+	
+	in_stKinToPlc AT %I*: NCTOPLC_NCICHANNEL_REF;
+	out_stPlcTokin AT %Q*: PLCTONC_NCICHANNEL_REF;
+    out_bAxes_KinConfigGroup_Error: BOOL;
+	out_bAxes_KinResetGroup_Error: BOOL;
+	
+	out_bAxes_KinConfigGroup_Done_HMI: BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.2">
+  <GVL Name="ItpCharacters" Id="{f0b99f6d-4f33-4c00-b3c0-3e97aedb0807}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	
+    in_bAxes_ItpLoadPRG_Execute: BOOL;
+	in_strAxes_ItpLoadPRG_PRGPath: STRING :='Pick_place.nc';
+	in_bAxes_ItpLoadPRG_Busy: BOOL;
+	out_uiAxes_ItpLoadPRG_ErrorID: UDINT;
+	
+    in_bAxes_ItpStartStop_Error: BOOL;
+	in_bAxes_ItpStartStop_Start: BOOL;
+	in_bAxes_ItpStartStop_Stop: BOOL;
+	in_bAxes_ItpStartStop_Busy: BOOL;
+	in_uiAxes_ItpStartStop_ErrorID: UDINT;
+	
+    in_bAxes_BuildItpGoup_Execute: BOOL;
+	out_bAxes_BuildItpGoup_Busy: BOOL;
+	out_uiAxes_BuildItpGoup_ErrorID: UDINT;
+	out_bAxes_BuildItpGoup_Error: BOOL;
+	out_bAxes_ItpLoadPRG_Error: BOOL;
+	
+    in_bAxes_ItpReset_Group_Execute: BOOL;
+	out_bAxes_ItpReset_Group_Error: BOOL;
+	out_uiAxes_ItpReset_Group_ErrorID: UDINT;
+	
+    in_stItpToPLC AT %I*: NCTOPLC_NCICHANNEL_REF;
+	out_stPLCToItp AT %Q*: PLCTONC_NCICHANNEL_REF;
+	
+	out_uiItp_InterpreterState AT %I*: UINT;
+	out_wdItp_InterpolationMode AT %I*: WORD;
+	out_uiItp_Linenumber AT %I*: UDINT;
+	out_uiItp_Mcodenumber AT %I*: UINT;
+	out_uiItp_ErrorEncountered AT %I*: UDINT;
+	out_uiItp_Feedrate AT %I*: LREAL;
+
+	out_bAxes_BuildItpGoup_Done: BOOL;
+	out_bAxes_ItpReset_Group_Busy: BOOL;
+	out_stItp_InterpreterState_String: WSTRING(255);
+	out_bAxes_ItpLoadPRG_DoneHMI: BOOL;
+	out_wdItp_InterpolationMode_string: WSTRING;
+	in_bAxes_ItpReConfig_Group_Execute: BOOL;
+	in_bAxes_ItpReConfig_Group_Busy: BOOL;
+	in_bAxes_ItpReConfig_Group_Busy_HMI: BOOL;
+	
+	in_bAxes_ItpConfirmHSK_Execute: BOOL;
+	out_bAxes_ItpConfirmHSK_Busy: BOOL;
+	in_bTOOL: BOOL;
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

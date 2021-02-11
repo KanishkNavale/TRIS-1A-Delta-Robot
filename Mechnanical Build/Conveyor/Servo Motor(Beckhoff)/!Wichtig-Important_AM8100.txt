@@ -1,0 +1,40 @@
+BECKHOFF Automation GmbH
+
+                                Motor AM8100
+
+Informationen zu den technischen Zeichnungen (STEP)
+Information to the technical drawings (STEP)
+
+Die Motoren sind nur in folgenden Punkten unterschiedlich:
+1.) MIT oder OHNE Bremse
+2.) RESOLVER oder andere Feedbacksysteme
+3.) MIT oder OHNE Passfeder
+
+The motors only differ in following points:
+1) WITH or WITHOUT brake
+2) RESOLVER or other feedback systems
+3) WITH or WITHOUT keyway
+
+
+Beispiel für die verschiedenen Varianten:
+Example for the different versions:
+
+
+Motor:				Zeichnung / Drawing:
+AM8121-0x00      			AM8121-xx00
+AM8121-1x00			AM8121-xx00
+AM8121-0x01			AM8121-xx01
+AM8121-1x01			AM8121-xx01
+AM8121-0x20			AM8121-xx10
+AM8121-1x20			AM8121-xx10
+AM8121-0x21			AM8121-xx11
+AM8121-1x21			AM8121-xx11
+
+
+
+
+Es wurden nur die Zeichnungen mit der Passfeder generiert. Wenn die Passfeder nicht benötigt
+wird, kann sie einfach aus der Zeichnung entfernt werden.
+
+We only generated drawings with keyway-option. If you don’t need the keyway you can
+delete it from the drawing.

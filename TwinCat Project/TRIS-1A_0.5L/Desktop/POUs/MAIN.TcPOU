@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.9">
+  <POU Name="MAIN" Id="{e9a9a825-28a7-4b93-8dd6-e16879b7ba33}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[Axes();
+Kinematics();
+Home();
+Singularity();
+
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.2">
+  <GVL Name="HardwareCharacters" Id="{52a8e706-99d6-499a-943c-14b5b5cb41d2}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	in_bMasterAxes_Enable_HW AT %I*: BOOL;
+	out_bMasterAxes_Enable_HW AT %Q*: BOOL;
+	out_bSimsX_Axes_busy_HW AT %Q*: BOOL;
+	out_bSimsY_Axes_busy_HW AT %Q*: BOOL;
+	out_bSimsZ_Axes_busy_HW AT %Q*: BOOL;
+	in_bAxes_SimsX_Jog_Forward_HW AT %I*: BOOL;
+	in_bAxes_SimsX_Jog_Backward_HW AT %I*: BOOL;
+	in_bAxes_SimsY_Jog_Forward_HW AT %I*: BOOL;
+	in_bAxes_SimsY_Jog_Backward_HW AT %I*: BOOL;
+	in_bAxes_SimsZ_Jog_Forward_HW AT %I*: BOOL;
+	in_bAxes_SimsZ_Jog_Backward_HW AT %I*: BOOL;
+	in_bTOOL_HW AT %I*: BOOL;
+	out_bTOOL_HW AT %Q*: BOOL;
+	in_uiMasterAxes_Override_HW1 AT %I*: BOOL;
+	in_uiMasterAxes_Override_HW2 AT %I*: BOOL;
+	iXTrq_feedback AT %I*:INT;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

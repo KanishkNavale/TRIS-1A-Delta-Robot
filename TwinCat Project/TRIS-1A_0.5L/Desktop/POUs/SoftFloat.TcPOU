@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.9" FileSignature="9bd5b41c1583d7140b3c73b8c8a604c49eeccea6773100e4766e71f5000a898424ee15a6c627b2fbddc18e53c0dbbd9cec71a51e3de64c5f73cc6925278288e883122cb04744b021f38e841cc07f1f6ec9eb96df1c56bd976f0e07ae70810238503229fc7d4a76d320897ed31e00a55796c92688f85eda67f263a33bb3c9ce94594b1d75f3416986bd7e60380755602d137aed3d2870e0b54075acc2d357013e1024418a56ab0c65b51b481cbaee17bcb9f482f1eb2df51ea567800ed76b95fc07b14b8e98e128c36f9f9051633557a4c58d6b155a23f9d27d0920aebd712d9f19fd2ca8a30a78c842df69718b42c3a2300a4b4e945daf9619c89aaca5f746f9">
+  <POU Name="SoftFloat" Id="{eb08565a-7fc0-42d1-9e34-4af64d149454}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM SoftFloat
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <NWL>
+        <XmlArchive>
+          <Data>
+            <o xml:space="preserve" t="NWLImplementationObject">
+              <v n="NetworkListComment">""</v>
+              <v n="DefaultViewMode">"Ld"</v>
+              <l2 n="NetworkList" cet="Network">
+                <o>
+                  <v n="Comment">""</v>
+                  <v n="Title">""</v>
+                  <v n="Label">""</v>
+                  <v n="OutCommented">false</v>
+                  <l2 n="NetworkItems" />
+                  <v n="ILActive">false</v>
+                  <v n="FBDValid">false</v>
+                  <v n="ILValid">false</v>
+                  <l2 n="ILLines" />
+                  <l2 n="Connectors" />
+                  <v n="Id">5L</v>
+                </o>
+              </l2>
+              <v n="BranchCounter">1</v>
+              <v n="ValidIds">true</v>
+            </o>
+          </Data>
+          <TypeList>
+            <Type n="Boolean">System.Boolean</Type>
+            <Type n="Int32">System.Int32</Type>
+            <Type n="Int64">System.Int64</Type>
+            <Type n="Network">{d9a99d73-b633-47db-b876-a752acb25871}</Type>
+            <Type n="NWLImplementationObject">{25e509de-33d4-4447-93f8-c9e4ea381c8b}</Type>
+            <Type n="String">System.String</Type>
+          </TypeList>
+        </XmlArchive>
+      </NWL>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,43 @@
+BECKHOFF Automation GmbH & Co. KG
+
+				Getriebe AG2250
+				Gearbox AG2250
+
+Informationen zu den technischen Zeichnungen (STEP)
+Information to the technical drawings (STEP)
+
+Die Endung F1 steht stellvertretend für alle flanschkompatiblen Motorbaureihen:
+Flanschgröße F1: AM811x, AM801x, AM311x, AM301x
+
+The ending F1 representative all flange compatible motor series:
+Flange code F1: AM811x, AM801x, AM311x, AM301x
+
+Es wurden nur die Zeichnungen mit der Passfeder generiert. Wenn die Passfeder nicht benötigt
+wird, kann sie einfach aus der Zeichnung entfernt werden.
+
+Drawings are only with keyway-option. If you don’t need the keyway you can
+delete it from the drawing.
+
+Beispiel für die verschiedenen AG2250 Varianten, 1-stufig:
+Example for the different AG2250 versions, 1 stage:
+
+Getriebe / Gearbox:				Zeichnung / Drawing:
+AG2250-+PLE40-M01-i-0B1-F1		ag2250-ple40-m01-i-1b1-f1
+AG2250-+PLE40-M01-i-1B1-F1		ag2250-ple40-m01-i-1b1-f1
+AG2250-+WPLE40-M01-i-0B1-F1		ag2250-wple40-m01-i-1b1-f1
+AG2250-+WPLE40-M01-i-1B1-F1		ag2250-wple40-m01-i-1b1-f1	
+
+Beispiel für die verschiedenen AG2250 Varianten, 2-stufig:
+Example for the different AG2250 versions, 2 stage:
+
+Getriebe / Gearbox:				Zeichnung / Drawing:
+AG2250-+PLE40-M02-i-0B1-F1		ag2250-ple40-m02-i-1b1-f1
+AG2250-+PLE40-M02-i-1B1-F1		ag2250-ple40-m02-i-1b1-f1
+AG2250-+WPLE40-M02-i-0B1-F1		ag2250-wple40-m02-i-1b1-f1
+AG2250-+WPLE40-M02-i-1B1-F1		ag2250-wple40-m02-i-1b1-f1		    		
+
+Bitte achten Sie bei der Bestellung auf die korrekte Artikelbezeichnung (0 = glatte Welle, 1 = Passfeder)
+Pay attention to define the type of shaft in your order code (0 = smooth shaft, 1 = shaft with keyway)
+
+i= Übersetzungen (Abmessungen innerhalb einer Getriebestufe sind immer identisch)
+i= ratios (dimensions within the same gearbox stage does not change)

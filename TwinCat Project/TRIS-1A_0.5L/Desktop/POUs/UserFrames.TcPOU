@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.9" FileSignature="9250c59cf45615454d192564e8d79e9c475b074af8f1d85ab8772dc63719eb4b061fd8fcc94fa2331a5475a85cfa5d21072827f9d9a4f5b832e6f07c161447a892fd3e486484a2d663d1d44e31acd7bbee493ca516bb39877cf1c8c30efc4531adffc56d3745743d3e99c0feed5b2f8e4cf21e532b7ef661bce2b1348749e3e521f61f4a5d83e73fce8b65a1f226bc7eb133ba6922f6cffc8e903198c85ec462c7e1ebfffdd7235416510c19505eda089ae701c6f280775847d3cf9fa40d85ca347b9c600af0e466e84ae1289d57ea3e667372afb42b102b21cef4d6f6209ace2bffbc5b402a3888f84cc44387b54a7211c93e1caa04d5f59cf87c79ea1af5e7">
+  <POU Name="UserFrames" Id="{8be4e8e1-b66c-4169-8d26-133849860b22}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM UserFrames
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <NWL>
+        <XmlArchive>
+          <Data>
+            <o xml:space="preserve" t="NWLImplementationObject">
+              <v n="NetworkListComment">""</v>
+              <v n="DefaultViewMode">"Ld"</v>
+              <l2 n="NetworkList" cet="Network">
+                <o>
+                  <v n="Comment">""</v>
+                  <v n="Title">""</v>
+                  <v n="Label">""</v>
+                  <v n="OutCommented">false</v>
+                  <l2 n="NetworkItems" />
+                  <v n="ILActive">false</v>
+                  <v n="FBDValid">false</v>
+                  <v n="ILValid">false</v>
+                  <l2 n="ILLines" />
+                  <l2 n="Connectors" />
+                  <v n="Id">5L</v>
+                </o>
+              </l2>
+              <v n="BranchCounter">1</v>
+              <v n="ValidIds">true</v>
+            </o>
+          </Data>
+          <TypeList>
+            <Type n="Boolean">System.Boolean</Type>
+            <Type n="Int32">System.Int32</Type>
+            <Type n="Int64">System.Int64</Type>
+            <Type n="Network">{d9a99d73-b633-47db-b876-a752acb25871}</Type>
+            <Type n="NWLImplementationObject">{25e509de-33d4-4447-93f8-c9e4ea381c8b}</Type>
+            <Type n="String">System.String</Type>
+          </TypeList>
+        </XmlArchive>
+      </NWL>
+    </Implementation>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.9">
+  <GVL Name="AxesCharacters" Id="{6837208e-3080-4dde-a746-4bf3b5edf5de}">
+    <Declaration><![CDATA[VAR_GLOBAL
+    in_uiMasterAxes_Override: LREAL := 100;
+	in_bMasterAxes_Enable: BOOL ;    
+
+    MachX: AXIS_REF;	
+    in_bMachX_Enable: BOOL;
+	in_uiMachX_Override: LREAL;
+	out_bMachX_Status: BOOL;
+	out_uiMachX_ErrorID: UDINT;
+	
+    MachY: AXIS_REF;
+	in_bMachY_Enable: BOOL ;
+	in_uiMachY_Override: LREAL;
+	out_bMachY_Status: BOOL;
+	out_uiMachY_ErrorID: UDINT;
+	
+    MachZ: AXIS_REF;
+	in_bMachZ_Enable: BOOL ;
+	in_uiMachZ_Override: LREAL;
+	out_bMachZ_Status: BOOL;
+	out_uiMachZ_ErrorID: UDINT;
+	
+    SimsX: AXIS_REF;
+	in_bSimsX_Enable: BOOL ;
+	in_uiSimsX_Override: LREAL;
+	out_bSimsX_Status: BOOL;
+	out_uiSimsX_ErrorID: UDINT;
+	
+    SimsY: AXIS_REF;
+	in_bSimsY_Enable: BOOL ;
+	in_uiSimsY_Override: LREAL;
+	out_bSimsY_Status: BOOL;
+	out_uiSimsY_ErrorID: UDINT;
+	
+    SimsZ: AXIS_REF;
+	in_bSimsZ_Enable: BOOL ;
+	in_uiSimsZ_Override: LREAL;
+	out_bSimsZ_Status: BOOL;
+	out_uiSimsZ_ErrorID: UDINT;
+		
+	in_bAxes_MachX_Jog_Forward: BOOL;
+	in_bAxes_MachX_Jog_Backward: BOOL;
+	out_uiAxes_MachX_Jog_ErrorID: UDINT;
+		
+	in_bAxes_MachY_Jog_Forward: BOOL;
+	in_bAxes_MachY_Jog_Backward: BOOL;
+	out_uiAxes_MachY_Jog_ErrorID: UDINT;
+	
+	in_bAxes_MachZ_Jog_Forward: BOOL;
+	in_bAxes_MachZ_Jog_Backward: BOOL;
+	out_uiAxes_MachZ_Jog_ErrorID: UDINT;
+	
+    in_bAxes_SimsX_Jog_Forward: BOOL;
+	in_bAxes_SimsX_Jog_Backward: BOOL;
+	out_uiAxes_SimsX_Jog_ErrorID: UDINT;
+	
+    in_bAxes_SimsY_Jog_Forward: BOOL;
+	in_bAxes_SimsY_Jog_Backward: BOOL;
+	out_uiAxes_SimsY_Jog_ErrorID: UDINT;
+	
+    in_bAxes_SimsZ_Jog_Forward: BOOL;
+	in_bAxes_SimsZ_Jog_Backward: BOOL;
+	out_uiAxes_SimsZ_Jog_ErrorID: UDINT;
+
+	out_uiMachX_Error: BOOL;
+	out_uiMachY_Error: BOOL;
+	out_uiMachZ_Error: BOOL;
+	out_uiSimsX_Error: BOOL;
+	out_uiSimsY_Error: BOOL;
+	out_uiSimsZ_Error: BOOL;
+	out_bAxes_Master_Error: BOOL;
+	
+	Axes_Reset_All: BOOL;
+		
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

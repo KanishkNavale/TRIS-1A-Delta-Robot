@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4018.9">
+  <GVL Name="Functions" Id="{5015faaf-b6d0-40a4-aeb2-4339b63ad341}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	
+// Move to Home Function
+	in_b_MoveHome: BOOL;
+	SimsX_Home_Done: BOOL;
+	SimsY_Home_Done: BOOL;
+	SimsZ_Home_Done: BOOL;
+	
+	Set_Pos_XHome: LREAL;
+	Set_Pos_YHome: LREAL;
+	Set_Pos_ZHome: LREAL;
+	Set_Home_Override: LREAL:= 1000;
+	out_b_inHome: BOOL;
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
