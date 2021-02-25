@@ -1,0 +1,15 @@
+
+{
+	"UpdateRate": 40,
+	"PlcAddress": "008E",
+	"UseLocalHost": true,
+	"Application": "Application",
+	"StartVisu": "HMI",
+	"BestFit": true,
+	"LogLevel": "INFO",
+	"CommBufferSize": 50000,
+    "HasKeyboard": false,
+    "TouchHandlingActive": true,
+    "ScaleTypeIsotropic": false,
+    "BestFitForDialogs": true
+}
